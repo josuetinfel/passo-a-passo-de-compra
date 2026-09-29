@@ -1,0 +1,27 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing:border-box;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.btn-destaque{
+    background-color: #007bff;
+    color: #ffff;
+}
+.btn-destaque:hover{
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .menu-principal {
+    flex-direction: column;
+    align-items: center;
+  }
+}
